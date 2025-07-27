@@ -1,0 +1,8 @@
+torch==2.1.2
+transformers==4.36.2
+sentencepiece==0.1.99
+accelerate==0.25.0
+datasets==2.18.0
+
+# After installing the above packages, run:
+# python -m spacy download en_core_web_sm 

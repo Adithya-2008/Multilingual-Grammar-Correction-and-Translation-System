@@ -1,0 +1,42 @@
+# === Virtual Environments ===
+venv/
+venv_new/
+.venv/
+
+# === Python cache & logs ===
+__pycache__/
+*.pyc
+*.log
+*.tmp
+
+# === Checkpoints & model files ===
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.spm
+
+# === Dataset files (ignore only large/generated ones) ===
+*.csv
+*.tsv
+*.json
+*.xlsx
+*.parquet
+
+# === Audio files ===
+*.wav
+
+# === IDE/editor settings ===
+.vscode/
+.idea/
+
+# === Jupyter notebook auto-saves ===
+.ipynb_checkpoints/
+
+# === Archives ===
+*.zip
+
+# === Folders to exclude ===
+/english_to_japanese_translator_final/
+/hindi_english_translator_final/
